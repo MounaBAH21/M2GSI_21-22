@@ -23,7 +23,7 @@
             el.style.fontSize = "100px";
         }
       function chargeSvg(url,id){
-            var urlParam ="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqJN-2wN_fxvyCfUY47IGQjj6QH0W4W7JQWlUVwwYdVGWhelTwknx9CPRry6XPSrYy6XFIl0zTiZdL/pubhtml?gid=1876930734&single=true";
+            var urlParam ="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqJN-2wN_fxvyCfUY47IGQjj6QH0W4W7JQWlUVwwYdVGWhelTwknx9CPRry6XPSrYy6XFIl0zTiZdL/pub?gid=1876930734&single=true&output=csv";
             d3.csv(urlParam)
                 .then(dataParam => {
                     dataParam.forEach((d,i)=>{
